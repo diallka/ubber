@@ -1,0 +1,121 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5 août 2016, 12:01:44
+    Author     : pro
+*/
+a   {
+    text-decoration: none
+    }
+
+html {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+body {
+	color: #333;
+	font-family: Arial,sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	text-shadow: 0 1px 0 #fff;
+}
+
+form {
+	background: #f7f7f7;
+	background: linear-gradient(to bottom, #fff 0%, #ccc 100%);
+	border: 1px solid #aaa;
+	border-radius: 10px;
+	box-shadow: 0 0 15px #aaa;
+	box-shadow: 0 0 15px #aaa;
+	margin: 60px auto 0;
+	padding: 20px;
+	width: 440px;
+}
+form h2 {
+	border-bottom: 1px solid #ccc;
+	font-size: 11px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	width: 400px;
+}
+form p {
+	margin-bottom: 20px;
+}
+label {
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 28px;
+	margin-bottom: 5px;
+	width: 120px;
+}
+input[type="text"], input[type="password"] {
+	background: rgba(255, 255, 255, 0.9);
+	background: -moz-linear-gradient(bottom, #fff, #eee);
+	border: 1px solid #aaa;
+	border-radius: 3px;
+	box-shadow: 0 0 3px #aaa;
+	padding: 5px;
+	width: 60%;
+	background-color: #CCC;
+}
+
+input[type=text]:focus,
+input[type=password]:focus{
+    border-color:#093c75;
+    box-shadow:0 0 3px #0459b7;
+    box-shadow:0 0 3px #0459b7;
+    outline:none; /* Pour enlever le contour jaune lorsque l'on sÃ©lectionne un input dans Chrome */
+}
+
+input[type=submit],
+input[type=button]{
+    background:#0459b7;
+    background: linear-gradient(90deg, #0459b7, #08adff);
+    border:1px solid #093c75;
+    border-radius:3px;
+    box-shadow:0 1px 0 #fff;
+    color:#fff;
+    cursor:pointer;
+    font-family:Arial,sans-serif;
+    font-size:12px;
+    font-weight:bold;
+    margin-left:120px;
+    padding:5px 10px;
+    text-decoration:none;
+    text-shadow:0 1px 1px #333;
+    text-transform:uppercase;
+}
+
+input[type=button]{
+        
+}
+input[type=submit],
+a.submit{
+    margin-right: 45px;
+    display: inline;
+}
+input[type=submit]:hover,
+input[type=button]:hover{
+    background:#08adff;
+    background:-moz-linear-gradient(90deg, #067cd3, #0bcdff);
+    background:-webkit-gradient(linear, left top, left bottom, from(#0bcdff), to(#067cd3));
+    background:linear-gradient(90deg, #067cd3, #0bcdff);
+    border-color:#093c75;
+    text-decoration:none;
+}
+input[type=button]:active,
+input[type=button]:focus{
+/*    background:#ccc;*/
+    background:-moz-linear-gradient(90deg, #0bcdff, #067cd3);
+    border-color:#093c75;
+    outline:none;
+}

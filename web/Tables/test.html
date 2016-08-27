@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="map" style="position: absolute;top: 50px"> </div><br><br>
+        <div id="destinationForm">
+            <form action="" method="get" name="direction" id="direction" style="display:inline-block;position: absolute;top: 50px;" >
+                <label>Point de départ :</label>
+                <input type="text" name="origin" id="origin">
+                <label>Destination :</label>
+                <input type="text" name="destination" id="destination">
+                <input type="button" value="Calculer l'itinéraire" onclick="calculate()">
+            </form>
+        </div>
+        
+        <div id="panel" style="width: 700px;height: 600px;background-color: pink;position: absolute;top: 100px;left: 50px;color: red;overflow: scroll"></div>
+        <div id="recapitulatif" style="position: absolute;top: 800px"></div>
+        <script src="testApp.js"></script>
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBC95GpgAzzfx4qDEDw-_G76aMlpwtvoSc&callback=initMap">
+        </script>
+        
+        <link rel="stylesheet" href="CSS/css1.css" />
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&language=fr"></script>
+        <script src="jquery-3.1.0.min.js"></script>
+    </body>
+</html>
